@@ -1,0 +1,5 @@
+node_modules
+e2e
+specs
+src/public/workbox-v5.1.4/
+**.json

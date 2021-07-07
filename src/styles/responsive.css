@@ -1,0 +1,45 @@
+@media screen and (min-width: 650px) {
+    .hero {
+        min-height: 200px;
+        max-height: 300px;
+    }
+    .hero-title {
+        font-size: 26px;
+    }
+    .hero-tagline {
+        font-size: 17px;
+    }
+
+    .cafes {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .hero {
+        min-height: 480px;
+        max-height: 500px;
+    }
+    .hero-title {
+        font-size: 36px;
+    }
+    .hero-tagline {
+        font-size: 18px;
+    }
+    .cafes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cafes {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .cafes {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
